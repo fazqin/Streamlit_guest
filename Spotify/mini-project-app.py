@@ -2,8 +2,12 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 # load data
+base_path = os.path.dirname(__file__)
+file_path = os.path.join(base_path, 'spotify.csv')
+
 def load_data():
     df = pd.read_csv("spotify.csv")
     df = df.dropna()
