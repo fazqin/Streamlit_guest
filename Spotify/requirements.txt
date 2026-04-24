@@ -6,3 +6,4 @@ plotly
 pytz
 pandas-ta
 matplotlib
+seaborn
