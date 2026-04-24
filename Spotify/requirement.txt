@@ -5,3 +5,4 @@ joblib
 plotly
 pytz
 pandas-ta
+matplotlib
